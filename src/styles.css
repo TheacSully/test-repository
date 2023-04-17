@@ -1,0 +1,90 @@
+body {
+  background: black;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/562/original/raindrops.jpg?1679226164images/raindrops.jpg);
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.container {
+  margin-top: 20px;
+  background: linear-gradient(
+    198deg,
+    rgb(58, 65, 86) 5%,
+    rgb(58, 65, 86) 33%,
+    rgb(174, 187, 217) 100%
+  );
+  opacity: 98%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(58, 65, 86) 10%;
+  text-align: center;
+  color: #e4f1fe;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 500;
+  color: #ffffff;
+  margin: 20px;
+}
+
+hr {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 200;
+  padding: 20px;
+}
+
+.main-temp {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+  padding: 10px;
+  color: #282849;
+  background-color: rgba(255, 255, 255, 0.715);
+  width: 200px;
+  font-weight: 200;
+}
+
+.main-temp .fa-cloud-showers-heavy {
+  font-size: 45px;
+  padding: 15px;
+}
+
+.card {
+  background-color: transparent;
+  border-width: 2px;
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 50px;
+}
+
+.footer {
+  padding: 30px;
+  font-weight: thin;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(58, 65, 86);
+}
